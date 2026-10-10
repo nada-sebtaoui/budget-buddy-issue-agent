@@ -1,0 +1,9 @@
+id,date,description,category,amount,type
+T-100,2026-04-03,Monthly salary,salary,3000.00,income
+T-101,2026-04-05,Apartment rent,housing,900.00,expense
+T-102,2026-04-10,Groceries,food,120.00,expense
+T-103,2026-03-18,Electricity bill,utilities,76.40,expense
+T-104,2025-04-15,Previous year rent,housing,850.00,expense
+T-105,2025-04-20,Freelance payment,freelance,250.00,income
+T-106,2026-05-02,Train tickets,travel,44.50,expense
+T-107,2026-04-26,Freelance payment,freelance,180.00,income
