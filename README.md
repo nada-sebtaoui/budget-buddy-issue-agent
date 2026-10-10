@@ -1,4 +1,4 @@
-Budget Buddy
+# Budget Buddy
 Budget Buddy is a deliberately small Python transaction tracker. It reads transactions from CSV and prints a monthly summary of income, expenses, net cash flow, and expense totals by category.
 
 This is a demo repository for testing an AI GitHub issue agent. It has a focused bug report supplied separately in DEMO_ISSUE.md at the ZIP's top level. Keep that file outside the GitHub repository when you upload the project, then create a GitHub issue from its contents.
@@ -11,8 +11,8 @@ Run locally
 From the repository root:
 
 python -m venv .venv
-# Windows PowerShell: .venv\Scripts\Activate.ps1
-# Git Bash / macOS / Linux: source .venv/bin/activate
+#### Windows PowerShell: .venv\Scripts\Activate.ps1
+#### Git Bash / macOS / Linux: source .venv/bin/activate
 python -m pip install -e ".[dev]"
 python -m budget_buddy.cli --year 2026 --month 4
 If running without installing the package, use PYTHONPATH=src (or set the equivalent environment variable in your shell):
